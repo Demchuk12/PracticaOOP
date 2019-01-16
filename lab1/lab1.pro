@@ -25,11 +25,11 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    databasehelper.cpp
+    database.cpp
 
 HEADERS += \
         mainwindow.h \
-    databasehelper.h
+    database.h
 
 FORMS += \
         mainwindow.ui
