@@ -5,8 +5,9 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
+    connect(),SLOT(clicked()),this,SIGNAL(re)));
     ui->setupUi(this);
-    this->setWindowTitle("QDataWidgetMapper Example");
+    this->setWindowTitle("QDataWidgetMapper");
     /* Первым делом необходимо создать объект для работы с базой данных
      * и инициализировать подключение к базе данных
      * */
@@ -99,5 +100,5 @@ void MainWindow::slotEditRecord(QModelIndex index)
 
     /* Выполняем запуск диалогового окна
      * */
-    addDeviceDialog->show()
+    addDeviceDialog->show();
 }

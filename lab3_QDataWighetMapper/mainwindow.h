@@ -32,5 +32,7 @@ private:
 private:
     void setupModel(const QString &tableName, const QStringList &headers);
     void createUI();
+    public slots
+        connect(pushbutton,SLOT(clicked()),this, SIGNAL(Cignal()));
 };
 #endif // MAINWINDOW_H
