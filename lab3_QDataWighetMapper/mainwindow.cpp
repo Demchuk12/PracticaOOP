@@ -5,7 +5,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
-    connect(),SLOT(clicked()),this,SIGNAL(re)));
+    connect(ui->pushButton,&QPushButton::clicked,this,&MainWindow::slotUpdateModels);
     ui->setupUi(this);
     this->setWindowTitle("QDataWidgetMapper");
     /* Первым делом необходимо создать объект для работы с базой данных
